@@ -1,0 +1,31 @@
+{
+  "name": "crypto-discord-bot",
+  "version": "1.0.0",
+  "description": "Crypto-Discord-Bot is a simple bot designed to display cryptocurrency exchange rates within a Discord server. It provides users with up-to-date information on the value of popular cryptocurrencies, including Bitcoin, Ethereum, and Litecoin, as well as a variety of altcoins.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anufdo/crypto-discord-bot.git"
+  },
+  "author": "Anuradha Fernando",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anufdo/crypto-discord-bot/issues"
+  },
+  "homepage": "https://github.com/anufdo/crypto-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
+  }
+}
